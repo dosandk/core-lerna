@@ -1,7 +1,13 @@
 {
   "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
   "lib": {
-    "entryFile": "public_api.ts"
+    "entryFile": "public_api.ts",
+    "externals": {
+      "@angular/core": "@angular/core",
+      "@angular/common": "@angular/common",
+      "@angular/router": "@angular/router"
+    }
   },
+  "dest": "./modules",
   "whitelistedNonPeerDependencies": ["."]
 }
