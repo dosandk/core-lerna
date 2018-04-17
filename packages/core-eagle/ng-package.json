@@ -1,7 +1,8 @@
 {
   "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
   "lib": {
-    "entryFile": "./src/app/core/public_api.ts"
+    "entryFile": "./src/app/core/public_api.ts",
+    "flatModuleFile": "index"
   },
   "dest": "./modules",
   "whitelistedNonPeerDependencies": ["."]
