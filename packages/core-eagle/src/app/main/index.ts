@@ -1,3 +1,1 @@
-export * from './core/index';
-export * from './login/index';
-export * from './menu/index';
+export * from './public_api';
