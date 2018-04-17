@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "public_api.js",
+  "sources": [
+    "ng://core-eagle/src/app/public_api.ts"
+  ],
+  "sourcesContent": [
+    "export * from './core/index';\r\n"
+  ],
+  "names": [],
+  "mappings": ";;;;AAAA,0DAAc,cAAc,CAAC"
+}

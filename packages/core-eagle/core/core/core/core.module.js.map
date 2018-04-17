@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "core.module.js",
+  "sources": [
+    "ng://core-eagle/src/app/core/core/core.module.ts"
+  ],
+  "sourcesContent": [
+    "import { NgModule } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { CoreComponent } from './core.component';\r\nimport { RouterModule } from '@angular/router';\r\nimport { LoginComponent } from '../login/login.component';\r\nimport { MenuComponent } from '../menu/menu.component';\r\n\r\n@NgModule({\r\n  imports: [\r\n    CommonModule,\r\n    RouterModule.forChild([\r\n      { path: '', component: CoreComponent },\r\n      { path: 'menu', component: MenuComponent },\r\n      { path: 'login', component: LoginComponent }\r\n    ])\r\n  ],\r\n  declarations: [\r\n    CoreComponent,\r\n    LoginComponent,\r\n    MenuComponent\r\n  ],\r\n  exports: [CoreComponent, LoginComponent, MenuComponent],\r\n  entryComponents: [CoreComponent]\r\n})\r\nexport class CoreModule { }\r\n"
+  ],
+  "names": [],
+  "mappings": ";;;;AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,aAAa,EAAE,MAAM,kBAAkB,CAAC;AACjD,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,cAAc,EAAE,MAAM,0BAA0B,CAAC;AAC1D,OAAO,EAAE,aAAa,EAAE,MAAM,wBAAwB,CAAC;AAmBvD,MAAM;;;YAjBL,QAAQ,SAAC;gBACR,OAAO,EAAE;oBACP,YAAY;oBACZ,YAAY,CAAC,QAAQ,CAAC;wBACpB,EAAE,IAAI,EAAE,EAAE,EAAE,SAAS,EAAE,aAAa,EAAE;wBACtC,EAAE,IAAI,EAAE,MAAM,EAAE,SAAS,EAAE,aAAa,EAAE;wBAC1C,EAAE,IAAI,EAAE,OAAO,EAAE,SAAS,EAAE,cAAc,EAAE;qBAC7C,CAAC;iBACH;gBACD,YAAY,EAAE;oBACZ,aAAa;oBACb,cAAc;oBACd,aAAa;iBACd;gBACD,OAAO,EAAE,CAAC,aAAa,EAAE,cAAc,EAAE,aAAa,CAAC;gBACvD,eAAe,EAAE,CAAC,aAAa,CAAC;aACjC"
+}

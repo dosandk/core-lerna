@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sources": [
+    "ng://core-eagle/src/app/core/index.ts"
+  ],
+  "sourcesContent": [
+    "export * from './core/index';\nexport * from './login/index';\nexport * from './menu/index';\n"
+  ],
+  "names": [],
+  "mappings": ";;;;AAAA,2BAAc,cAAc,CAAC;AAC7B,+BAAc,eAAe,CAAC;AAC9B,8BAAc,cAAc,CAAC"
+}

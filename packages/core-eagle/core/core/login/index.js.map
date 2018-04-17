@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sources": [
+    "ng://core-eagle/src/app/core/login/index.ts"
+  ],
+  "sourcesContent": [
+    "export * from './login.component';\n"
+  ],
+  "names": [],
+  "mappings": ";;;;AAAA,+BAAc,mBAAmB,CAAC"
+}
