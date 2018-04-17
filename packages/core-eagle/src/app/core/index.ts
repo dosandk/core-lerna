@@ -1,3 +1,3 @@
 export * from './core.module';
-export * from './menu/menu.component';
-export * from './login/login.component';
+export * from './menu/index';
+export * from './login/index';
