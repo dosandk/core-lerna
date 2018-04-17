@@ -1,7 +1,7 @@
 {
   "name": "core-eagle",
   "main": "./dist/esm2015/core-eagle.js",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -11,6 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ./src/app/main/package.json",
+    "publish": "echo test",
     "prepublish": "npm run packagr"
   },
   "dependencies": {
