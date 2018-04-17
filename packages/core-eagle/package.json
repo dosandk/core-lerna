@@ -1,5 +1,5 @@
 {
-  "name": "core-eagle",
+  "name": "foo",
   "main": "./dist/esm2015/core-eagle.js",
   "version": "1.0.18",
   "license": "MIT",
@@ -50,6 +50,6 @@
     "typescript": "~2.5.3"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "./build_mdoules"
   }
 }
