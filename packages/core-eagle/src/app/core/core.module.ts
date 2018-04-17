@@ -9,7 +9,8 @@ import { MenuComponent } from './menu/menu.component';
   imports: [
     CommonModule,
     RouterModule.forChild([
-      { path: '', component: MenuComponent },
+      { path: '', component: CoreComponent },
+      { path: 'menu', component: MenuComponent },
       { path: 'login', component: LoginComponent }
     ])
   ],

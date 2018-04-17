@@ -1,5 +1,22 @@
 {
-	"devDependencies": {
-		"lerna": "^2.9.0"
+  "name": "core-lerna",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dosandk/core-lerna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dosandk/core-lerna/issues"
+  },
+  "homepage": "https://github.com/dosandk/core-lerna#readme",
+  "description": "",
+  "devDependencies": {
+    "lerna": "^2.9.0"
 	}
 }
