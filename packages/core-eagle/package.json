@@ -1,7 +1,7 @@
 {
   "name": "core-eagle",
   "main": "./dist/esm2015/core-eagle.js",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
