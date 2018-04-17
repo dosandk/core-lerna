@@ -1,3 +1,3 @@
-export { CoreModule } from './core.module';
-export { MenuComponent } from './menu/menu.component';
-export { LoginComponent } from './login/login.component';
+export * from './core.module';
+export * from './menu/menu.component';
+export * from './login/login.component';
